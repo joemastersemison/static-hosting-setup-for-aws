@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "example.com.",
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": "Z3AQBSTGFYJSTF",
+          "DNSName": "s3-website-us-east-1.amazonaws.com.",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}
